@@ -68,6 +68,7 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra_gen}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra_cfg/fsp_cfg/bsp}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra_cfg/fsp_cfg}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra_cfg/driver}&quot;"/>									
 									<listOptionValue builtIn="false" value="&quot;..&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;../../..&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;../../../ra&quot;"/>
@@ -83,6 +84,7 @@
 									<listOptionValue builtIn="false" value="RA_HAL_H=&lt;RA6M5_hal.h&gt;"/>
 									<listOptionValue builtIn="false" value="MICROPY_FLOAT_IMPL=MICROPY_FLOAT_IMPL_FLOAT"/>
 									<listOptionValue builtIn="false" value="USE_FSP_LPM"/>
+									<listOptionValue builtIn="false" value="USE_FSP_QSPI"/>
 									<listOptionValue builtIn="false" value="USE_FSP_FLASH"/>
 									<listOptionValue builtIn="false" value="DEFAULT_DBG_CH=9"/>
 									<listOptionValue builtIn="false" value="MICROPY_MODULE_FROZEN_STR"/>
@@ -103,6 +105,7 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra_gen}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra_cfg/fsp_cfg/bsp}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra_cfg/fsp_cfg}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra_cfg/driver}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;..&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;../../..&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;../../../ra&quot;"/>
@@ -118,6 +121,7 @@
 									<listOptionValue builtIn="false" value="RA_HAL_H=&lt;RA6M5_hal.h&gt;"/>
 									<listOptionValue builtIn="false" value="MICROPY_FLOAT_IMPL=MICROPY_FLOAT_IMPL_FLOAT"/>
 									<listOptionValue builtIn="false" value="USE_FSP_LPM"/>
+									<listOptionValue builtIn="false" value="USE_FSP_QSPI"/>
 									<listOptionValue builtIn="false" value="USE_FSP_FLASH"/>
 									<listOptionValue builtIn="false" value="DEFAULT_DBG_CH=9"/>
 									<listOptionValue builtIn="false" value="MICROPY_MODULE_FROZEN_STR"/>
@@ -175,10 +179,9 @@
 						<entry excluding="ninaw10|cyw43|cc3100" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="drivers"/>
 						<entry excluding="uasyncio|nimble|mbedtls|lwip-include|btstack|axtls-include" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="extmod"/>
 						<entry excluding="libm/ef_sqrt.c|wiznet5k|uzlib|tinyusb|tinytest|stm32lib|re1.5|pico-sdk|nxp_driver|nrfx|mynewt-nimble|micropython-lib|mbedtls_errors|mbedtls|lwip|littlefs|libm_dbl|libhydrogen|libffi|fsp|cyw43-driver|crypto-algorithms|cmsis|btstack|berkeley-db-1.xx|axtls|asf4" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="lib"/>
-						<entry excluding="renesas-ra/machine_pwm.c" flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="ports"/>
+						<entry excluding="renesas-ra/modutime.c|renesas-ra/machine_pwm.c" flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="ports"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="py"/>
 						<entry excluding="fsp/src/r_spi|fsp/src/r_sci_uart|fsp/src/r_rtc|fsp/src/r_iic_master|fsp/src/r_icu|fsp/src/r_dtc|fsp/src/r_agt|fsp/src/r_adc" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="ra"/>
-						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="ra_gen"/>
 						<entry excluding="runtime/gchelper_thumb1.s|upytesthelper|tinyusb|runtime/gchelper_generic.c|memzip" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="shared"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
 					</sourceEntries>
