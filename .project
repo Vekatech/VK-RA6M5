@@ -118,6 +118,16 @@
 			<locationURI>PARENT-2-PROJECT_LOC/build_all_boards.sh</locationURI>
 		</link>
 		<link>
+			<name>ports/renesas-ra/eth.c</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/eth.c</locationURI>
+		</link>
+		<link>
+			<name>ports/renesas-ra/eth.h</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/eth.h</locationURI>
+		</link>
+		<link>
 			<name>ports/renesas-ra/extint.c</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/extint.c</locationURI>
@@ -193,6 +203,11 @@
 			<locationURI>PARENT-2-PROJECT_LOC/led.h</locationURI>
 		</link>
 		<link>
+			<name>ports/renesas-ra/lwip_inc</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
 			<name>ports/renesas-ra/machine_adc.c</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/machine_adc.c</locationURI>
@@ -223,6 +238,11 @@
 			<locationURI>PARENT-2-PROJECT_LOC/machine_rtc.c</locationURI>
 		</link>
 		<link>
+			<name>ports/renesas-ra/machine_sdcard.c</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/machine_sdcard.c</locationURI>
+		</link>
+		<link>
 			<name>ports/renesas-ra/machine_spi.c</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/machine_spi.c</locationURI>
@@ -238,6 +258,11 @@
 			<locationURI>PARENT-2-PROJECT_LOC/main.c</locationURI>
 		</link>
 		<link>
+			<name>ports/renesas-ra/mbedtls</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
 			<name>ports/renesas-ra/modmachine.c</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/modmachine.c</locationURI>
@@ -248,9 +273,14 @@
 			<locationURI>PARENT-2-PROJECT_LOC/modmachine.h</locationURI>
 		</link>
 		<link>
-			<name>ports/renesas-ra/modutime.c</name>
+			<name>ports/renesas-ra/modos.c</name>
 			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/modutime.c</locationURI>
+			<locationURI>PARENT-2-PROJECT_LOC/modos.c</locationURI>
+		</link>
+		<link>
+			<name>ports/renesas-ra/modtime.c</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/modtime.c</locationURI>
 		</link>
 		<link>
 			<name>ports/renesas-ra/mpconfigboard_common.h</name>
@@ -278,6 +308,11 @@
 			<locationURI>PARENT-2-PROJECT_LOC/mphalport.h</locationURI>
 		</link>
 		<link>
+			<name>ports/renesas-ra/mpnetworkport.c</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/mpnetworkport.c</locationURI>
+		</link>
+		<link>
 			<name>ports/renesas-ra/mpthreadport.c</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/mpthreadport.c</locationURI>
@@ -286,6 +321,11 @@
 			<name>ports/renesas-ra/mpthreadport.h</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/mpthreadport.h</locationURI>
+		</link>
+		<link>
+			<name>ports/renesas-ra/network_lan.c</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/network_lan.c</locationURI>
 		</link>
 		<link>
 			<name>ports/renesas-ra/pendsv.c</name>
@@ -338,6 +378,11 @@
 			<locationURI>virtual:/virtual</locationURI>
 		</link>
 		<link>
+			<name>ports/renesas-ra/ra_hal.c</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/ra_hal.c</locationURI>
+		</link>
+		<link>
 			<name>ports/renesas-ra/ra_it.c</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/ra_it.c</locationURI>
@@ -346,6 +391,16 @@
 			<name>ports/renesas-ra/ra_it.h</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/ra_it.h</locationURI>
+		</link>
+		<link>
+			<name>ports/renesas-ra/rng.c</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/rng.c</locationURI>
+		</link>
+		<link>
+			<name>ports/renesas-ra/rng.h</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/rng.h</locationURI>
 		</link>
 		<link>
 			<name>ports/renesas-ra/rtc.h</name>
@@ -408,6 +463,86 @@
 			<locationURI>PARENT-2-PROJECT_LOC/usrsw.h</locationURI>
 		</link>
 		<link>
+			<name>ra_cfg/fsp_cfg/r_adc_cfg.h</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/fsp_cfg/r_adc_cfg.h</locationURI>
+		</link>
+		<link>
+			<name>ra_cfg/fsp_cfg/r_agt_cfg.h</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/fsp_cfg/r_agt_cfg.h</locationURI>
+		</link>
+		<link>
+			<name>ra_cfg/fsp_cfg/r_dtc_cfg.h</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/fsp_cfg/r_dtc_cfg.h</locationURI>
+		</link>
+		<link>
+			<name>ra_cfg/fsp_cfg/r_ether_cfg.h</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/fsp_cfg/r_ether_cfg.h</locationURI>
+		</link>
+		<link>
+			<name>ra_cfg/fsp_cfg/r_ether_phy_cfg.h</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/fsp_cfg/r_ether_phy_cfg.h</locationURI>
+		</link>
+		<link>
+			<name>ra_cfg/fsp_cfg/r_flash_hp_cfg.h</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/fsp_cfg/r_flash_hp_cfg.h</locationURI>
+		</link>
+		<link>
+			<name>ra_cfg/fsp_cfg/r_flash_lp_cfg.h</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/fsp_cfg/r_flash_lp_cfg.h</locationURI>
+		</link>
+		<link>
+			<name>ra_cfg/fsp_cfg/r_icu_cfg.h</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/fsp_cfg/r_icu_cfg.h</locationURI>
+		</link>
+		<link>
+			<name>ra_cfg/fsp_cfg/r_iic_master_cfg.h</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/fsp_cfg/r_iic_master_cfg.h</locationURI>
+		</link>
+		<link>
+			<name>ra_cfg/fsp_cfg/r_ioport_cfg.h</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/fsp_cfg/r_ioport_cfg.h</locationURI>
+		</link>
+		<link>
+			<name>ra_cfg/fsp_cfg/r_lpm_cfg.h</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/fsp_cfg/r_lpm_cfg.h</locationURI>
+		</link>
+		<link>
+			<name>ra_cfg/fsp_cfg/r_rtc_cfg.h</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/fsp_cfg/r_rtc_cfg.h</locationURI>
+		</link>
+		<link>
+			<name>ra_cfg/fsp_cfg/r_sce_cfg.h</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/fsp_cfg/r_sce_cfg.h</locationURI>
+		</link>
+		<link>
+			<name>ra_cfg/fsp_cfg/r_sci_uart_cfg.h</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/fsp_cfg/r_sci_uart_cfg.h</locationURI>
+		</link>
+		<link>
+			<name>ra_cfg/fsp_cfg/r_sdhi_cfg.h</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/fsp_cfg/r_sdhi_cfg.h</locationURI>
+		</link>
+		<link>
+			<name>ra_cfg/fsp_cfg/r_spi_cfg.h</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/fsp_cfg/r_spi_cfg.h</locationURI>
+		</link>
+		<link>
 			<name>ports/renesas-ra/boards/.gitignore</name>
 			<type>1</type>
 			<locationURI>PARENT-1-PROJECT_LOC/.gitignore</locationURI>
@@ -456,6 +591,26 @@
 			<name>ports/renesas-ra/build-VK_RA6M5/pins_qstr.h</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/build-VK_RA6M5/pins_qstr.h</locationURI>
+		</link>
+		<link>
+			<name>ports/renesas-ra/lwip_inc/arch</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>ports/renesas-ra/lwip_inc/lwipopts.h</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/lwip_inc/lwipopts.h</locationURI>
+		</link>
+		<link>
+			<name>ports/renesas-ra/mbedtls/mbedtls_config.h</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/mbedtls/mbedtls_config.h</locationURI>
+		</link>
+		<link>
+			<name>ports/renesas-ra/mbedtls/mbedtls_port.c</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/mbedtls/mbedtls_port.c</locationURI>
 		</link>
 		<link>
 			<name>ports/renesas-ra/ra/ra_adc.c</name>
@@ -646,6 +801,16 @@
 			<name>ports/renesas-ra/build-VK_RA6M5/genhdr/root_pointers.h</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/build-VK_RA6M5/genhdr/root_pointers.h</locationURI>
+		</link>
+		<link>
+			<name>ports/renesas-ra/lwip_inc/arch/cc.h</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/lwip_inc/arch/cc.h</locationURI>
+		</link>
+		<link>
+			<name>ports/renesas-ra/lwip_inc/arch/sys_arch.h</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/lwip_inc/arch/sys_arch.h</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>
