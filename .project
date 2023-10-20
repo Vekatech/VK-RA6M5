@@ -453,6 +453,11 @@
 			<locationURI>PARENT-2-PROJECT_LOC/uart.h</locationURI>
 		</link>
 		<link>
+			<name>ports/renesas-ra/usbd.c</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/usbd.c</locationURI>
+		</link>
+		<link>
 			<name>ports/renesas-ra/usrsw.c</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/usrsw.c</locationURI>
@@ -541,6 +546,21 @@
 			<name>ra_cfg/fsp_cfg/r_spi_cfg.h</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/fsp_cfg/r_spi_cfg.h</locationURI>
+		</link>
+		<link>
+			<name>ra_cfg/fsp_cfg/r_usb_basic_cfg.h</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/fsp_cfg/r_usb_basic_cfg.h</locationURI>
+		</link>
+		<link>
+			<name>ra_cfg/fsp_cfg/r_usb_class_cfg.h</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/fsp_cfg/r_usb_class_cfg.h</locationURI>
+		</link>
+		<link>
+			<name>ra_cfg/fsp_cfg/r_usb_pcdc_cfg.h</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/fsp_cfg/r_usb_pcdc_cfg.h</locationURI>
 		</link>
 		<link>
 			<name>ports/renesas-ra/boards/.gitignore</name>

@@ -78,10 +78,14 @@
 									<listOptionValue builtIn="false" value="&quot;../../../../..&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;../../../../../lib/lwip/src/include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;../../../../../lib/mbedtls/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;../../../../../lib/tinyusb/hw&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;../../../../../lib/tinyusb/src&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;../../../../../shared/tinyusb&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/fsp/src/r_sce_protected/crypto_procedures_protected/src/sce9/inc/api}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/fsp/src/r_sce_protected/crypto_procedures_protected/src/sce9/inc/instances}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/fsp/src/r_sce_protected/crypto_procedures_protected/src/sce9/private/inc}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra_cfg/fsp_cfg}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/fsp/src/r_usb_basic/src/driver/inc}&quot;"/>
 								</option>
 								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.defs.1069653467" name="Defined symbols (-D)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.assembler.defs" useByScannerDiscovery="true" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="_RA_CORE=CM33"/>
@@ -95,16 +99,18 @@
 									<listOptionValue builtIn="false" value="RA6M5"/>
 									<listOptionValue builtIn="false" value="RA_HAL_H=&lt;RA6M5_hal.h&gt;"/>
 									<listOptionValue builtIn="false" value="MICROPY_FLOAT_IMPL=MICROPY_FLOAT_IMPL_FLOAT"/>
-									<listOptionValue builtIn="false" value="USE_FSP_LPM"/>
-									<listOptionValue builtIn="false" value="USE_FSP_QSPI"/>
-									<listOptionValue builtIn="false" value="USE_FSP_SDHI"/>
-									<listOptionValue builtIn="false" value="USE_FSP_ETH"/>
-									<listOptionValue builtIn="false" value="USE_FSP_FLASH"/>
+									<listOptionValue builtIn="false" value="USE_FSP_LPM=1"/>
+									<listOptionValue builtIn="false" value="USE_FSP_OSPI=1"/>
+									<listOptionValue builtIn="false" value="USE_FSP_QSPI=1"/>
+									<listOptionValue builtIn="false" value="USE_FSP_SDHI=1"/>
+									<listOptionValue builtIn="false" value="USE_FSP_ETH=1"/>
+									<listOptionValue builtIn="false" value="USE_FSP_FLASH=1"/>
 									<listOptionValue builtIn="false" value="DEFAULT_DBG_CH=9"/>
 									<listOptionValue builtIn="false" value="MICROPY_MODULE_FROZEN_STR"/>
 									<listOptionValue builtIn="false" value="MICROPY_QSTR_EXTRA_POOL=mp_qstr_frozen_const_pool"/>
 									<listOptionValue builtIn="false" value="MICROPY_MODULE_FROZEN_MPY"/>
 									<listOptionValue builtIn="false" value="MICROPY_ROM_TEXT_COMPRESSION=1"/>
+									<listOptionValue builtIn="false" value="CFG_TUSB_MCU=OPT_MCU_RAXXX"/>
 								</option>
 								<inputType id="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler.input.1406876017" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler.input"/>
 							</tool>
@@ -129,10 +135,14 @@
 									<listOptionValue builtIn="false" value="&quot;../../../../..&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;../../../../../lib/lwip/src/include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;../../../../../lib/mbedtls/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;../../../../../lib/tinyusb/hw&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;../../../../../lib/tinyusb/src&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;../../../../../shared/tinyusb&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/fsp/src/r_sce_protected/crypto_procedures_protected/src/sce9/inc/api}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/fsp/src/r_sce_protected/crypto_procedures_protected/src/sce9/inc/instances}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/fsp/src/r_sce_protected/crypto_procedures_protected/src/sce9/private/inc}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra_cfg/fsp_cfg}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/fsp/src/r_usb_basic/src/driver/inc}&quot;"/>
 								</option>
 								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.defs.2145255179" name="Defined symbols (-D)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.defs" useByScannerDiscovery="true" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="_RA_CORE=CM33"/>
@@ -146,16 +156,18 @@
 									<listOptionValue builtIn="false" value="RA6M5"/>
 									<listOptionValue builtIn="false" value="RA_HAL_H=&lt;RA6M5_hal.h&gt;"/>
 									<listOptionValue builtIn="false" value="MICROPY_FLOAT_IMPL=MICROPY_FLOAT_IMPL_FLOAT"/>
-									<listOptionValue builtIn="false" value="USE_FSP_LPM"/>
-									<listOptionValue builtIn="false" value="USE_FSP_QSPI"/>
-									<listOptionValue builtIn="false" value="USE_FSP_SDHI"/>
-									<listOptionValue builtIn="false" value="USE_FSP_ETH"/>
-									<listOptionValue builtIn="false" value="USE_FSP_FLASH"/>
+									<listOptionValue builtIn="false" value="USE_FSP_LPM=1"/>
+									<listOptionValue builtIn="false" value="USE_FSP_OSPI=1"/>
+									<listOptionValue builtIn="false" value="USE_FSP_QSPI=1"/>
+									<listOptionValue builtIn="false" value="USE_FSP_SDHI=1"/>
+									<listOptionValue builtIn="false" value="USE_FSP_ETH=1"/>
+									<listOptionValue builtIn="false" value="USE_FSP_FLASH=1"/>
 									<listOptionValue builtIn="false" value="DEFAULT_DBG_CH=9"/>
 									<listOptionValue builtIn="false" value="MICROPY_MODULE_FROZEN_STR"/>
 									<listOptionValue builtIn="false" value="MICROPY_QSTR_EXTRA_POOL=mp_qstr_frozen_const_pool"/>
 									<listOptionValue builtIn="false" value="MICROPY_MODULE_FROZEN_MPY"/>
 									<listOptionValue builtIn="false" value="MICROPY_ROM_TEXT_COMPRESSION=1"/>
+									<listOptionValue builtIn="false" value="CFG_TUSB_MCU=OPT_MCU_RAXXX"/>
 								</option>
 								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.otheroptimizations.863525706" name="Other optimization flags" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.otheroptimizations" useByScannerDiscovery="true" value="-nostdlib" valueType="string"/>
 								<inputType id="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.input.700563945" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.input"/>
@@ -265,12 +277,12 @@
 					<sourceEntries>
 						<entry excluding="ninaw10|cyw43|cc3100" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="drivers"/>
 						<entry excluding="uasyncio|nimble|mbedtls|lwip-include|btstack|axtls-include" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="extmod"/>
-						<entry excluding="lwip/src/apps/tftp|lwip/src/apps/sntp|lwip/src/apps/snmp|lwip/src/apps/smtp|lwip/src/apps/netbiosns|lwip/src/apps/mqtt|lwip/src/apps/lwiperf|lwip/src/apps/http|lwip/src/apps/altcp_tls|axtls|axtls/crypto/sha512.c|axtls/crypto/sha384.c|axtls/crypto/sha256.c|axtls/crypto/rc4.c|axtls/ssl/p12.c|axtls/ssl/os_port.c|axtls/ssl/openssl.c|axtls/ssl/gen_cert.c|axtls/ssl/test|axtls/www|axtls/samples|axtls/httpd|axtls/docsrc|axtls/config|axtls/bindings|axtls/axtlswrap|mbedtls/library/version.c|mbedtls/library/version_features.c|mbedtls/library/threading.c|mbedtls/library/ssl_tls13_keys.c|mbedtls/library/psa_its_file.c|mbedtls/library/psa_crypto.c|mbedtls/library/psa_crypto_storage.c|mbedtls/library/psa_crypto_slot_management.c|mbedtls/library/psa_crypto_se.c|mbedtls/library/psa_crypto_rsa.c|mbedtls/library/psa_crypto_mac.c|mbedtls/library/psa_crypto_hash.c|mbedtls/library/psa_crypto_ecp.c|mbedtls/library/psa_crypto_driver_wrappers.c|mbedtls/library/psa_crypto_client.c|mbedtls/library/psa_crypto_cipher.c|mbedtls/library/psa_crypto_aead.c|mbedtls/library/nist_kw.c|mbedtls/library/net_sockets.c|mbedtls/library/mps_trace.c|mbedtls/library/mps_reader.c|mbedtls/library/memory_buffer_alloc.c|mbedtls/library/error.c|mbedtls_errors/esp32_mbedtls_errors.c|mbedtls_errors/tester.c|mbedtls/library/hkdf.c|mbedtls/library/aria.c|lwip/src/include|lwip/src/api|lwip/src/netif/zepif.c|lwip/src/netif/slipif.c|lwip/src/netif/lowpan6.c|lwip/src/netif/lowpan6_common.c|lwip/src/netif/lowpan6_ble.c|lwip/src/netif/bridgeif_fdb.c|lwip/src/netif/bridgeif.c|lwip/src/netif/ppp|mbedtls/visualc|mbedtls/tests|mbedtls/scripts|mbedtls/programs|mbedtls/include|mbedtls/doxygen|mbedtls/docs|mbedtls/configs|mbedtls/ChangeLog.d|mbedtls/3rdparty|lwip/doc|lwip/test|libm/ef_sqrt.c|wiznet5k|uzlib|tinyusb|tinytest|stm32lib|re1.5|pico-sdk|nxp_driver|nrfx|mynewt-nimble|micropython-lib|littlefs|libm_dbl|libhydrogen|libffi|fsp|cyw43-driver|crypto-algorithms|cmsis|btstack|berkeley-db-1.xx|asf4" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="lib"/>
+						<entry excluding="protobuf-c|tinyusb/hw|tinyusb/src/portable/wch|tinyusb/src/portable/valentyusb|tinyusb/src/portable/ti|tinyusb/src/portable/template|tinyusb/src/portable/synopsys|tinyusb/src/portable/sunxi|tinyusb/src/portable/st|tinyusb/src/portable/sony|tinyusb/src/portable/raspberrypi|tinyusb/src/portable/ohci|tinyusb/src/portable/nxp|tinyusb/src/portable/nuvoton|tinyusb/src/portable/nordic|tinyusb/src/portable/mindmotion|tinyusb/src/portable/microchip|tinyusb/src/portable/mentor|tinyusb/src/portable/espressif|tinyusb/src/portable/ehci|tinyusb/src/portable/dialog|tinyusb/src/portable/chipidea|tinyusb/src/portable/bridgetek|tinyusb/tools|tinyusb/test|tinyusb/lib|tinyusb/examples|tinyusb/docs|lwip/src/apps/tftp|lwip/src/apps/sntp|lwip/src/apps/snmp|lwip/src/apps/smtp|lwip/src/apps/netbiosns|lwip/src/apps/mqtt|lwip/src/apps/lwiperf|lwip/src/apps/http|lwip/src/apps/altcp_tls|axtls|axtls/crypto/sha512.c|axtls/crypto/sha384.c|axtls/crypto/sha256.c|axtls/crypto/rc4.c|axtls/ssl/p12.c|axtls/ssl/os_port.c|axtls/ssl/openssl.c|axtls/ssl/gen_cert.c|axtls/ssl/test|axtls/www|axtls/samples|axtls/httpd|axtls/docsrc|axtls/config|axtls/bindings|axtls/axtlswrap|mbedtls/library/version.c|mbedtls/library/version_features.c|mbedtls/library/threading.c|mbedtls/library/ssl_tls13_keys.c|mbedtls/library/psa_its_file.c|mbedtls/library/psa_crypto.c|mbedtls/library/psa_crypto_storage.c|mbedtls/library/psa_crypto_slot_management.c|mbedtls/library/psa_crypto_se.c|mbedtls/library/psa_crypto_rsa.c|mbedtls/library/psa_crypto_mac.c|mbedtls/library/psa_crypto_hash.c|mbedtls/library/psa_crypto_ecp.c|mbedtls/library/psa_crypto_driver_wrappers.c|mbedtls/library/psa_crypto_client.c|mbedtls/library/psa_crypto_cipher.c|mbedtls/library/psa_crypto_aead.c|mbedtls/library/nist_kw.c|mbedtls/library/net_sockets.c|mbedtls/library/mps_trace.c|mbedtls/library/mps_reader.c|mbedtls/library/memory_buffer_alloc.c|mbedtls/library/error.c|mbedtls_errors/esp32_mbedtls_errors.c|mbedtls_errors/tester.c|mbedtls/library/hkdf.c|mbedtls/library/aria.c|lwip/src/include|lwip/src/api|lwip/src/netif/zepif.c|lwip/src/netif/slipif.c|lwip/src/netif/lowpan6.c|lwip/src/netif/lowpan6_common.c|lwip/src/netif/lowpan6_ble.c|lwip/src/netif/bridgeif_fdb.c|lwip/src/netif/bridgeif.c|lwip/src/netif/ppp|mbedtls/visualc|mbedtls/tests|mbedtls/scripts|mbedtls/programs|mbedtls/include|mbedtls/doxygen|mbedtls/docs|mbedtls/configs|mbedtls/ChangeLog.d|mbedtls/3rdparty|lwip/doc|lwip/test|libm/ef_sqrt.c|wiznet5k|uzlib|tinytest|stm32lib|re1.5|pico-sdk|nxp_driver|nrfx|mynewt-nimble|micropython-lib|littlefs|libm_dbl|libhydrogen|libffi|fsp|cyw43-driver|crypto-algorithms|cmsis|btstack|berkeley-db-1.xx|asf4" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="lib"/>
 						<entry excluding="renesas-ra/modtime.c|renesas-ra/modos.c|renesas-ra/modutime.c|renesas-ra/machine_pwm.c" flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="ports"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="py"/>
-						<entry excluding="fsp/src/r_spi|fsp/src/r_rtc|fsp/src/r_iic_master|fsp/src/r_icu|fsp/src/r_agt|fsp/src/r_adc" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="ra"/>
+						<entry excluding="fsp/src/r_usb_pcdc|fsp/src/r_usb_basic|fsp/src/r_spi|fsp/src/r_rtc|fsp/src/r_iic_master|fsp/src/r_icu|fsp/src/r_agt|fsp/src/r_adc" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="ra"/>
 						<entry excluding="main.c" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="ra_gen"/>
-						<entry excluding="runtime/gchelper_thumb1.s|upytesthelper|tinyusb|runtime/gchelper_generic.c|memzip" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="shared"/>
+						<entry excluding="runtime/gchelper_thumb1.s|upytesthelper|runtime/gchelper_generic.c|memzip" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="shared"/>
 						<entry excluding="hal_entry.c" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
 					</sourceEntries>
 				</configuration>
